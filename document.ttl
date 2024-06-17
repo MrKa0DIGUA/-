@@ -1,0 +1,539 @@
+@prefix tea: <http://twelvegroupmade.org/resource/碧螺春/tea/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ex: <http://twelvegroupmade.org/resource/卷曲如螺的碧螺春/expert/> .
+@prefix loc: <http://twelvegroupmade.org/resource/碧螺春/location/> .
+
+# 碧螺春
+tea:BiLuoChun a tea:Tea ;
+  tea:title "碧螺春" ;
+  tea:season "春季" ;
+  tea:physicalDescription "茶条索紧结，卷曲如螺，白毫毕露，银绿隐翠，叶芽幼嫩，茶水银澄碧绿，清香袭人，口味凉甜，鲜爽生津。" ;
+  tea:productionDate "春季，具体日期取决于年份和批次" ;
+  tea:makingProcess "包括采摘、杀青、揉捻、烘干等步骤，注重保持茶叶的天然形态和香气。" ;
+  tea:location loc:DongXiDongTingShan ;
+  tea:storageMethod "传统的贮藏方法是纸包茶叶，袋装块状石灰，茶、灰间隔放置缸中，加盖密封吸湿贮藏。随着科学的发展，也有采用三层塑料保鲜袋包装，分层紧扎，隔绝空气，放在10°C以下冷藏箱或电冰箱内贮藏，久贮年余，其色、香、味犹如新茶，鲜醇爽口。" ;
+  tea:additionalInfo "含有丰富的氨基酸、维生素和茶多酚，具有提神醒脑、清热解毒、抗氧化等健康益处。" .
+@prefix tea: <http://http://twelvegroupmade.org/resource/君山银针/tea/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ex: <http://http://twelvegroupmade.org/resource/君山银针/expert/> .
+@prefix loc: <http://http://twelvegroupmade.org/resource/君山银针/location/> .# 君山银针
+tea:JunShanYinZhen a tea:Tea ;
+  tea:title "君山银针" ;
+  tea:season "春季" ;
+  tea:physicalDescription "外形细长如针，茶毫显露，色泽金黄，滋味醇厚，甘甜，具有熟果香和玉米香。" ;
+  tea:productionDate "春季，具体日期取决于年份和批次" ;
+  tea:makingProcess "采用黄茶特有的发酵工艺，包括杀青、揉捻、闷黄和干燥。" ;
+  tea:location loc:JunShan ;
+  tea:storageMethod "应密封、干燥、避光、防潮，推荐存放在陶瓷或紫砂罐中。";
+  tea:additionalInfo "含有丰富的茶多酚和氨基酸，具有提神醒脑、助消化等健康益处。" .
+@prefix tea: <http://twelvegroupmade.org/resource/正山小种/tea/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ex: <http://twelvegroupmade.org/resource/正山小种/expert/> .
+@prefix loc: <http://twelvegroupmade.org/resource/条索紧结的正山小种/location/> .# 正山小种
+tea:ZhengShanXiaoZhong a tea:Tea ;
+  tea:title "正山小种" ;
+  tea:season "春季" ;
+  tea:physicalDescription "条索紧结，色泽乌黑油润，带有金黄色的茶毫，滋味醇厚，带有松烟香，甜中带苦，回甘快。" ;
+  tea:productionDate "春季，具体日期取决于年份和批次" ;
+  tea:makingProcess "采用传统的红茶制作工艺，包括萎凋、揉捻、发酵和干燥。" ;
+  tea:location loc:ZhengShan ;
+  tea:storageMethod "应密封、干燥、避光，避免与异味物品混放。" ;
+  tea:additionalInfo "含有丰富的茶多酚和抗氧化物质，有助于消化和心血管健康。" .
+@prefix tea: <http://twelvegroupmade.org/resource/普洱茶/tea/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ex: <http://twelvegroupmade.org/resource/普洱茶/expert/> .
+@prefix loc: <http://twelvegroupmade.org/resource/普洱茶/location/> .# 普洱茶
+tea:PuErTea a tea:Tea ;
+  tea:title "普洱茶" ;
+  tea:season "全年多批次" ;
+  tea:physicalDescription "生普洱外形自然，色泽青绿或黄绿；熟普洱色泽黑褐，形状多样，如饼、砖、沱等。" ;
+  tea:tasteDescription "生普口感强烈，带有苦涩和回甘；熟普口感醇厚，有独特的陈香和甘甜。" ;
+  tea:productionDate "持续生产，具体日期取决于年份和批次" ;
+  tea:makingProcess "生普洱经过自然发酵，熟普洱经过人工加速发酵，形成独特的风味。" ;
+  tea:location loc:YunNan ;
+  tea:storageMethod "需要通风、干燥、避光的环境，避免潮湿和高温，适合长期存放，陈化后品质提升。" ;
+  tea:additionalInfo "普洱茶含有丰富的茶多酚和微生物，具有降脂、减肥、助消化等健康益处。" .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ric: <http://twelvegroupmade.org/resource/王褒/Ric-CM#> . 
+
+# 定义资源
+<http://twelvegroupmade.org/resource/WangBao> a ric:CulturalHeritageResource ;
+    dc:title "王褒" ;
+    dc:type "人物" ;
+    dc:creator "王褒" ;
+    dc:description "西汉宣帝时期的文学家，以烹茶和买茶为日常事务。" ;
+    foaf:depiction <http://twelvegroupmade.org/images/WangBao.jpg> ; # 假设的图像链接
+    ric:geographicLocation "西南蜀郡（今四川省资阳市）";
+    ric:timePeriod "西汉宣帝时期" ;
+    ric:relatedEntity <http://twelvegroupmade.org/resource/Servant> ; # 假设的僮仆资源链接
+    dc:format "历史文献" ; # 假设的格式
+    dc:rights "公共领域" .
+
+# 定义僮仆资源
+<http://twelvegroupmade.org/resource/Servant> a foaf:Person ;
+    foaf:name "僮仆" ;
+    foaf:based_near <http://twelvegroupmade.org/resource/WangBao> .
+
+# 假设的图像资源
+<http://twelvegroupmade.org/images/WangBao.jpg> a foaf:Image ;
+    dc:title "王褒的画像" .	
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ric: <http://twelvegroupmade.org/resource/张载/Ric-CM#> . # 假设的命名空间
+
+# 定义资源
+<http://twelvegroupmade.org/resource/ZhangZai> a ric:HistoricalFigure ;
+    dc:identifier "ZhangZai" ;
+    dc:title "张载" ;
+    dc:type "文学家、政治家" ;
+    dc:description "魏晋时期西晋的文学家和政治家，以其诗歌和对茶的赞颂而知名。" ;
+    dcterms:created "魏晋时期"^^dcterms:W3CDTF ; # 假设的创建时间
+    dcterms:spatial <http://twelvegroupmade.org/resource/BolingJun> ;
+    dcterms:temporal "魏晋时期" ;
+    foaf:gender "男" ;
+    dcterms:duration "47年" .
+
+# 定义地理位置
+<http://twelvegroupmade.org/resource/BolingJun> a dcterms:Location ;
+    dc:title "华北博陵郡（今河北省衡水市）" .
+
+# 定义相关作品
+<http://twelvegroupmade.org/resource/PoemDengChengDuBaiTuLou> a dcterms:Text ;
+    dc:title "登成都白菟楼诗" ;
+    dc:creator <http://twelvegroupmade.org/resource/ZhangZai> ;
+    dc:description "张载的诗歌作品，其中对茶的赞颂和对人生安乐的感慨。" .		
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ric: <http://twelvegroupmade.org/resource/桓温/Ric-CM#> . 
+
+# 定义资源
+<http://twelvegroupmade.org/resource/HuanWen> a ric:HistoricalFigure ;
+    dc:identifier "HuanWen" ;
+    dc:title "桓温" ;
+    dc:type "政治家、军事家" ;
+    dc:description "魏晋时期东晋的政治家和军事家，以个人生活的俭朴和对茶的爱好而知名。" ;
+    dcterms:created "312"^^dcterms:W3CDTF ;
+    dcterms:date "373"^^dcterms:W3CDTF ;
+    dcterms:spatial <http://twelvegroupmade.org/resource/QiaoGuo> ;
+    dcterms:temporal "魏晋时期" ;
+    foaf:gender "男" ;
+    dcterms:duration "62年" .
+
+# 定义地理位置
+<http://twelvegroupmade.org/resource/QiaoGuo> a dcterms:Location ;
+    dc:title "华东谯国（今安徽省怀远县）" .
+
+# 定义相关人物
+<http://twelvegroupmade.org/resource/LiuKun> a foaf:Person ;
+    foaf:name "刘琨" ;
+    dcterms:relation <http://twelvegroupmade.org/resource/HuanWen> ;
+    dc:description "桓温仰慕的人物，西晋朝廷的风云人物，对茶饮相当依赖。" .
+
+# 桓温的饮茶爱好
+<http://twelvegroupmade.org/resource/HuanWenTeaHobby> a ric:CulturalPractice ;
+    dcterms:creator <http://twelvegroupmade.org/resource/HuanWen> ;
+    dc:description "桓温的饮茶爱好，受刘琨影响，体现了他的个人品味和对刘琨的尊崇。" .	
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ric: <http://twelvegroupmade.org/resource/赵佶/Ric-CM#> . 
+
+# 定义资源
+<http://twelvegroupmade.org/resource/ZhaoJi> a ric:HistoricalFigure ;
+    dc:identifier "ZhaoJi" ;
+    dc:title "赵佶" ;
+    dc:type "帝王" ;
+    dc:description"宋金辽元时期的北宋帝王，宋徽宗，以对茶文化的热爱和贡献而知名。" ;
+    dcterms:created "1082"^^dcterms:W3CDTF ;
+    dcterms:date "1135"^^dcterms:W3CDTF ;
+    dcterms:spatial <http://twelvegroupmade.org/resource/DongJing> ;
+    dcterms:temporal "宋金辽元时期" ;
+    foaf:gender "男" ;
+    dcterms:duration "54年" .
+
+# 定义地理位置
+<http://twelvegroupmade.org/resource/DongJing> a dcterms:Location ;
+    dc:title "华中东京（今河南省开封市）" .
+
+# 定义相关作品
+<http://twelvegroupmade.org/resource/XuanHeBeiYuanGongChaLu> a dcterms:Text ;
+    dc:title "宣和北苑贡茶录" ;
+    dc:creator <http://twelvegroupmade.org/resource/ZhaoJi> ;
+    dc:description "记载宋徽宗喜爱的贡茶种类。" .
+
+<http://twelvegroupmade.org/resource/DaGuanChaLun> a dcterms:Text ;
+    dc:title "大观茶论" ;
+    dc:creator <http://twelvegroupmade.org/resource/ZhaoJi> ;
+    dc:description "宋徽宗亲笔撰写的饮茶心得，记载了茶叶产地、采制、烹试、品质、斗茶风尚等。" .		
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ric: <http://twelvegroupmade.org/resource/陆游/Ric-CM#> .
+
+# 定义资源
+<http://twelvegroupmade.org/resource/LuYou> a ric:HistoricalFigure ;
+    dc:identifier "LuYou" ;
+    dc:title "陆游" ;
+    dc:type "文学家" ;
+    dc:description "宋金辽元时期的北宋文学家，以对茶的热爱和创作大量茶诗而知名。" ;
+    dcterms:created "1125"^^dcterms:W3CDTF ;
+    dcterms:date "1210"^^dcterms:W3CDTF ;
+    dcterms:spatial <http://twelvegroupmade.org/resource/YueZhou> ;
+    dcterms:temporal "宋金辽元时期" ;
+    foaf:gender "男" ;
+    dcterms:duration "86年" .
+
+# 定义地理位置
+<http://twelvegroupmade.org/resource/YueZhou> a dcterms:Location ;
+    dc:title "东南越州（今浙江省绍兴市）" .
+
+# 定义相关人物
+<http://twelvegroupmade.org/resource/LuYu> a foaf:Person ;
+    foaf:name "陆羽" ;
+    dcterms:relation <http://twelvegroupmade.org/resource/LuYou> ;
+    dc:description "唐代茶文化专家，陆游自诩为其后裔。" .
+
+# 定义相关作品
+<http://twelvegroupmade.org/resource/TeaPoems> a dcterms:Text ;
+    dc:title "陆游的茶诗" ;
+    dc:creator <http://twelvegroupmade.org/resource/LuYou> ;
+    dc:description "陆游创作的近300首茶诗，反映了他的生活态度和对茶文化的深刻理解。" .	
+# 定义命名空间前缀  
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .  
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .  
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .  
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .  
+@prefix : <http://twelvegroupmade.org/resource/建阳窑黑釉兔毫盏/ceramics#> .  
+  
+# 定义建阳窑黑釉兔毫盏的实体  
+:JianYangYaoHeiYouTuHaoZhan  
+    rdf:type rdfs:Class ;  
+    rdfs:label "建阳窑黑釉兔毫盏" ;  
+    rdfs:comment "宋代建阳窑出产的黑釉茶盏，具有独特的兔毫纹理。" ;  
+  
+    # 属性定义  
+    :name "建阳窑黑釉兔毫盏" ;  
+    :era "宋代" ;  
+    :material "陶瓷（黑釉）" ;  
+    :kiln "建阳窑" ;  
+    :objectType "茶具（茶盏）" ;  
+    # 表示高度的数值，数据类型为xsd:decimal
+    :height "9.6"^^xsd:decimal . 
+    :mouthDiameter xsd:decimal("16.2") ;  
+    :baseDiameter "4.9"^^xsd:decimal .
+  
+
+    # 其他可能的属性（根据具体需求添加）  
+    # ...  
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .  
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .  
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .  
+@prefix ex: <http://twelvegroupmade.org/resource/乾隆款仿朱漆菊瓣式盖碗的材质/tea-ware#> .  
+  
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .  
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .  
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .  
+@prefix ceramic: <http://twelvegroupmade.org/resource/粉彩开光人物茶壶/ceramic#> .  
+  
+ceramic:FenCaiKaiGuangRenWuChaHu  
+    rdf:type rdfs:Resource ;  
+    rdfs:label "粉彩开光人物茶壶" ;  
+    ceramic:era "清代乾隆时期" ;  
+    ceramic:material "陶瓷" ;  
+    ceramic:kiln "景德镇窑" ;  
+    ceramic:objectType "茶具（茶壶）" ;  
+    ceramic:height "12.6"^^xsd:decimal ;
+    ceramic:mouthDiameter "5.5"^^xsd:decimal ;
+    ceramic:baseDiameter "6.3"^^xsd:decimal ; 
+    ceramic:shape "壶圆鼓腹、柄呈耳状、壶盖为覆钵式，上有莲纹装饰钮。" ;  
+    ceramic:glazeAndDecoration "壶身以米红色凤尾锦粉彩团花为地，正、背面各有一开光。正面开光内以“雨中烹茶”为纹饰主题，用清淡的粉彩描绘出人物在庭院中烹茶的情景；背面开光内题墨书御制诗一首。壶盖与底均有描金。" ;  
+    ceramic:inscription "壶底中心署青花篆书“大清乾隆年制”三行六字款。" .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .  
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .  
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .  
+@prefix ceramic: <http://twelvegroupmade.org/resource/青花怪石茶花纹碗/ceramic#> .  
+  
+ceramic:BlueAndWhiteRockFlowerTeaBowl  
+    rdf:type rdfs:Resource ;  
+    rdfs:label "青花怪石茶花纹碗" ;  
+    ceramic:era "明代（具体时期可根据实际鉴定填写）" ;  
+    ceramic:material "陶瓷" ;  
+    ceramic:kiln"景德镇窑" ;  
+   ceramic:mouthDiameter "15.0"^^xsd:float ;  # 假设数据允许一定程度的近似
+ceramic:baseDiameter "7.0"^^xsd:float ;     # 假设数据允许一定程度的近似
+ceramic:height "7.0"^^xsd:float ;          # 假设数据允许一定程度的近似
+    ceramic:shape "碗口微敞，腹部略深，圈足较小。整体造型规整，线条流畅。" ;  
+    ceramic:glazeColor "白釉" ;  
+    ceramic:decoration "外壁以青花绘制怪石茶花纹饰。怪石形态各异，茶花盛开其间，整体构图疏密有致，布局合理。青花色泽鲜艳，蓝白分明，极具艺术美感。" .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
+@prefix ceramic: <http://twelvegroupmade.org/resource/仿钧釉茶壶/ceramic#> .
+ceramic:YiXingJunGlazeTeaPot
+    rdf:type rdfs:Resource ;  # 或者使用 rdfs:Class 如果这是一个类定义
+    rdfs:label "宜兴窑仿钧釉茶壶" ;
+    ceramic:material "陶瓷" ;
+    ceramic:kiln "宜兴窑" ;
+    ceramic:objectType "茶具（茶壶）" ;
+    ceramic:mouthDiameter "19.0"^^xsd:decimal ;
+    ceramic:baseDiameter "10.0"^^xsd:decimal ;
+    ceramic:height "12.0"^^xsd:decimal ;  # 如果这些数值代表精确的十进制数值，应使用 xsd:decimal
+    ceramic:shape "壶身呈扁圆形，线条流畅，腹部微鼓，壶嘴弯曲，壶柄呈耳状，与壶身相连，整体造型优雅。" ;
+    ceramic:glazeColor "仿钧釉" ;
+    ceramic:glazeDecoration "釉色以天蓝、月白为主，釉面光泽温润，釉层肥厚。壶身装饰有仿钧窑特有的玫瑰紫斑纹，色彩斑斓，变化万千，极富艺术魅力。" .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .  
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .  
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .  
+@prefix ceramic: <http://twelvegroupmade.org/resource/花卉竹石纹茶叶罐/ceramic#> .  
+  
+ceramic:YiXingZiShaFlowerBambooTeaJar
+    rdf:type rdfs:Resource ;
+    rdfs:label "宜兴窑紫砂花卉竹石纹茶叶罐" ;
+    ceramic:era "清代" ;
+    ceramic:material "紫砂" ;
+    ceramic:kiln "宜兴窑" ;
+    ceramic:objectType "茶器（茶叶罐）" ;
+    ceramic:mouthDiameter "2.5"^^xsd:float ;  # 去掉了xsd:decimal和多余的引号
+    ceramic:baseDiameter "5.7"^^xsd:float ;    # 同上
+    ceramic:height "9.5"^^xsd:float ;          # 同上
+    ceramic:shape "茶叶罐呈圆鼓形，线条流畅，腹部微鼓，肩部略收，底部平坦。罐盖与罐身以子母口套合，盖面微隆起，上有钮装饰。" ;
+    ceramic:decoration "罐身以紫砂泥料雕刻出精美的花卉竹石纹，花卉盛开，竹石相映，构图自然和谐，极具文人气息。" ;
+    ceramic:glazeColor "紫砂泥料特有的色泽，呈现出温润古朴的韵味，未经施釉，自然裸露。" .
+@prefix : <http://etwelvegroupmade.org/resource/南朝青釉点褐彩碗/artifacts/南朝青釉点褐彩碗#> .  
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .  
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .  
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .  
+  
+:南朝青釉点褐彩碗 a foaf:Document ;  
+    rdfs:label "南朝青釉点褐彩碗" ;  
+    :height "4.6厘米" ;  
+    :diameterOfMouth "10.8厘米" ;  
+    :diameterOfBase "4.5厘米" ;  
+    :shape "敞口，弧腹，平底" ;  
+    :construction "白胎，器身施一层薄薄的青釉，伴有自然的开片现象" ;  
+    :externalDecoration "口沿一圈点褐彩作为装饰" ;  
+    :internalDecoration "器内底刻莲瓣纹" .  
+  
+# 如果需要定义更多的属性或类别，可以在这里继续添加
+@prefix : <http://twelvegroupmade.org/resource/南朝青釉点褐彩茶托/artifacts/南朝青釉点褐彩茶托#> .  
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .  
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .  
+  
+:南朝青釉点褐彩茶托 a rdfs:Class ;  
+    rdfs:label "南朝青釉点褐彩茶托" ;  
+    :height "2.5厘米" ;  
+    :diameterOfMouth "14.0厘米" ;  
+    :diameterOfBase "7.0厘米" ;  
+    :shape "茶托器，口部微敛，浅弧腹，平底" ;  
+    :construction "系承盏的茶托，以防止茶杯烫手而专门设计" ;  
+    :externalDecoration "口沿装饰褐彩" ;  
+    :internalDecoration "内刻划十一瓣莲花" .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+
+<http://example.org/works/chufen> a vivo:InformationResource ;
+    dc:title "荈赋" ;
+    dc:creator [ a foaf:Person ; foaf:name "杜育"] ;
+    dcterms:created "220-265"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    a vivo:CreativeWork ;
+    vivo:type "文学作品，赋" ;
+    vivo:culturalContext "中国古代文化" .
+
+<http://example.org/works/chufen> dc:subject "茶文化、赋文学" ;
+    vivo:hasSubjectArea vivo:TeaCulture, vivo:FuLiterature .
+
+<http://example.org/works/chufen> dc:format "纸本" ;
+    vivo:hasTechnique vivo:Calligraphy .
+
+<http://example.org/works/chufen> dc:language "中文" ;
+    dc:keywords "茶学", "赋", "三国时期", "杜育" .
+
+<http://example.org/works/chufen> dcterms:rights "公共领域" ;
+    dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> .			
+			
+@prefix cdwa: <http://www.getty.edu/cdwa/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# 定义作品资源
+cdwa:JiaoNvShi a cdwa:Work .
+
+# 作品信息
+cdwa:JiaoNvShi dc:title "娇女诗" .
+cdwa:JiaoNvShi dc:creator "左思" .
+cdwa:JiaoNvShi dcterms:created "3rd century"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+# 创作者资源
+cdwa:CreatorZuoSi a foaf:Person ;
+    foaf:name "左思" .
+
+# 物理描述
+cdwa:JiaoNuShiPhysical a cdwa:PhysicalDescription ;
+    dcterms:medium "纸本" .
+
+# 主题与关键词
+cdwa:JiaoNvShiSubject a cdwa:Subject ;
+    skos:prefLabel"家庭生活, 父女情感" .
+
+cdwa:JiaoNvShiKeywords a cdwa:Keywords ;
+    skos:prefLabel "诗歌, 东晋, 左思, 家庭, 情感" .
+
+# 文化/地理信息
+cdwa:JiaoNvShiCultural a cdwa:CulturalInformation ;
+    dcterms:provenance "中国, 东晋" .
+
+# 权利信息
+cdwa:JiaoNvShiRights a cdwa:Rights ;
+    dcterms:rights "公共领域" .			
+			
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <http://example.org/works/chugao#> .
+
+:Chugao a dc:Text ;
+    dc:title "出歌" ;
+    dc:creator [ foaf:name "孙楚" ] ;
+    dcterms:created "4thcentury"
+^^<http://www.w3.org/2001/XMLSchema#gYear> ; # 由于具体年份不详，使用4世纪来表示
+    dc:type "诗歌" ;
+    dc:format "纸本或竹简" ;
+    dc:language "中文" .
+
+:Chugao dcterms:medium "书写" ; # 假设作品为手稿
+    dc:subject "诗歌、文学" ;
+    dc:coverage "东晋时期的中国文学与文化" ;
+    dc:keywords "东晋", "孙楚", "诗歌", "文学" .
+
+:Chugao dcterms:spatial [ a dcterms:Location ;
+    dcterms:title "中国" ] .
+
+:Chugao dcterms:rights "公共领域" ;
+    dcterms:license <http://creativecommons.org/publicdomain/mark/1.0/> .	
+			
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+# 定义作品的URI
+<http://example.org/works/daguan-chalun> a vivo:InformationResource, dc:Text ;
+    dc:title "大观茶论" ;
+    dc:creator [ a foaf:Person ; foaf:name "宋徽宗（Emperor Huizong of Song）" ] ;
+    dcterms:created "1107-1110"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    rdf:type vivo:CreativeWork ;
+    vivo:type "茶学著作" ;
+    vivo:culturalContext "北宋时期的中国茶文化" .
+
+# 物理描述
+<http://example.org/works/daguan-chalun> dc:format "纸本" ;
+    vivo:hasTechnique "书法", "绘画", "印刷" .
+
+# 主题与关键词
+<http://example.org/works/daguan-chalun> dc:subject "茶学、茶文化" ;
+    dc:keywords "茶艺", "宋徽宗", "大观", "茶论" .
+
+# 文化/地理信息
+<http://example.org/works/daguan-chalun> vivo:hasSubjectArea vivo:TeaCulture, vivo:SongDynastyCulture ;
+    vivo:geographicFocus "中国" .
+
+# 权利信息
+<http://example.org/works/daguan-chalun> dcterms:rights "公共领域" ;
+    dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> .			
+			
+			
+@prefix cdwa: <http://cdwa.example.org/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+# 定义作品主题
+cdwa:Work1
+  a cdwa:Work ;
+  dc:title "茶录" ;
+  dc:creator "蔡襄" ;
+  dc:date"北宋" .
+
+# 创作者信息
+cdwa:Creator1
+  a foaf:Person ;
+  foaf:name "蔡襄" ;
+  foaf:nick "Cai Xiang" .
+
+# 物理描述
+cdwa:PhysicalDescription1
+  a cdwa:PhysicalDescription ;
+  cdwa:dimensions"尺寸信息" ; # 需要具体尺寸数据
+  cdwa:materials "纸本" ;
+  cdwa:technique "书法" .
+
+# 主题与关键词
+cdwa:Subject1
+  a cdwa:Subject ;
+  dc:subject "茶文化" ;
+  dc:keywords "茶道, 茶艺, 宋代, 茶学" .
+
+# 文化/地理信息
+cdwa:CulturalInformation1
+  a cdwa:CulturalInformation ;
+  cdwa:culturalContext "中国宋代文化" ;
+  cdwa:geographicInformation"中国" .
+
+# 权利信息
+cdwa:Rights1
+  a cdwa:Rights ;
+  dc:rights "公共领域" ;
+  dc:useRights "根据具体收藏机构的规定" .
+
+# 相关作品
+cdwa:RelatedWork1
+  a cdwa:RelatedWork ;
+  dc:relation "可能与其他茶学著作或蔡襄的其他作品相关" .
+
+# 文献参考
+cdwa:BibliographicReference1
+  a cdwa:BibliographicReference ;
+  dc:bibliographicCitation "关于《茶录》的学术文章、书籍等参考文献" .
+
+# 记录信息
+cdwa:RecordInformation1
+  a cdwa:RecordInformation ;
+  dc:creator "记录创建者" ;
+  dc:date "记录日期" ;
+  dc:status "记录状态" .			
+			
+@prefix cdwa: <http://www.getty.edu/cdwa/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+# 定义作品资源
+cdwa:CiYunCaoFuJiHaYuanShiBeiXinCha a cdwa:Work ;
+    rdfs:label "次韵曹辅寄壑源试焙新茶"@zh ; # 中文标题
+    dc:creator "苏轼" ; # 中文作者名
+    dcterms:created "北宋" ; # 创作时期
+    dcterms:title "Ci Yun Cao Fu Ji Ha Yuan Shi Bei Xin Cha"@en ; # 英文名称（如果有）
+    dcterms:type "Poetry" ; # 资源类型
+    dcterms:medium "Ink on paper" ; # 创作媒介，假设为墨水书写在纸上
+    dcterms:provenance "China" ; # 创作地点
+    dcterms:rights"Public Domain" ; # 版权信息，公共领域
+    dcterms:tableOfContents "A poem about tasting new tea by Su Shi."@en ; # 内容摘要（英文）	
+# 假设前缀已经正确声明
